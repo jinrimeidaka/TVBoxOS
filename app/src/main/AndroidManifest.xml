@@ -26,9 +26,8 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.HomeActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="sensorLandscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -38,43 +37,34 @@
         </activity>
 
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.LivePlayActivity"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.DetailActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.PlayActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.PushActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.SearchActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.FastSearchActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.SettingActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.HistoryActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
         <activity
-            android:screenOrientation="sensorLandscape"
             android:name=".ui.activity.CollectActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="sensorLandscape" />
 
         <receiver android:name=".receiver.SearchReceiver">
             <intent-filter>
